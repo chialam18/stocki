@@ -64,9 +64,7 @@ whatif <- function (curr.p, curr.share, if.p, if.share, exp,
                         "percent",
                        "pre/post")
 
-    if(is.vector(if.p)) {
-      rownames(output) <-if.p
-    }
+    rownames(output) <-if.p
 
     return(output)
   }
